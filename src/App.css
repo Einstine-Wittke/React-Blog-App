@@ -2,37 +2,288 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.latest_content {
+  font-size: small;
+  text-align: left;
+  color: grey;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.latest_content h1 {
+  font-weight: 800;
+  text-align: left;
+  font-size: larger;
+  color: black;
+  margin-bottom: 0.5rem
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.latest_content p {
+  color: black;
+  font-weight: 600;
+  margin-top: 0.5rem;
+  font-variant: small-caps;
+}
+
+
+
+.article_content {
+  position: relative;
+    bottom: 55rem;
+    left: 14rem;
+    font-size: small;
+    line-height: 17px;
+}
+
+.article_content h1 {
+  font-size: 12.4px;
+  font-weight: 700;
+  margin-top: 21px;
+}
+
+
+
+.article_content p {
+  font-size: 11px;
+  color: grey;
+}
+
+.article_content span {
+  font-variant: small-caps;
+  color: black;
+  font-weight: 500;
+}
+
+.article_content h2 {
+  font-size: 11px;
+  color: grey;
+}
+
+.toppost_content {
+  position: relative;
+  bottom: 46rem;
+  left: 12rem;
+  font-size: small;
+  line-height: 21px;
+  margin-bottom: 4.3rem;
+}
+
+.toppost_content h1 {
+  font-weight: 600;
+}
+
+.toppost_content p {
+  font-size: 11px;
+  color: grey;
+}
+
+.toppost_content span {
+  font-variant: small-caps;
+  color: black;
+  font-weight: 500;
+}
+
+.advertisement {
+  font-variant: small-caps;
+  color: black;
+  font-weight: 500;
+  /* position: relative; */
+  bottom: 48rem;
+  height: 20rem;
+}
+
+.stories_content {
+  font-size: small;
+  text-align: left;
+  color: grey;
+  margin-bottom: 1rem;
+}
+
+.stories_content h1 {
+  font-weight: 800;
+  text-align: cen;
+  font-size: larger;
+  color: black;
+}
+
+.stories_content p {
+  font-weight: 600;
+  margin-top: 0.5rem;
+  color: grey;
+}
+
+.stories_content span {
+  font-variant: small-caps;
+  color: black;
+  font-weight: 500;
+}
+
+.stories_container {
+  margin-top: -35rem;
+}
+
+.category_container {
+  font-size: small;
+  line-height: 21px;
+}
+
+.category_container h1 {
+  font-size: 20.4px;
+  font-weight: 700;
+}
+
+.category_container p {
+  font-size: 11px;
+  color: grey;
+  width: 22rem;
+  line-height: 17px;
+  text-align: justify;
+}
+
+.category_container h2 {
+  font-variant: small-caps;
+  color: black;
+  font-weight: 500;
+}
+
+.category_container span {
+  margin-left: 1rem;
+}
+
+.category_container-two img {
+  width: 132px;
+  position: relative;
+  left: 39rem;
+  top: bottom;
+  bottom: 7rem;
+}
+
+.category_container-two {
+  position: relative;
+}
+
+.category_container-two h1 {
+  position: relative;
+  left: 39.3rem;
+  font-size: 13px;
+  bottom: 6rem;
+  text-align: jud;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.category_container-two h2 {
+  position: relative;
+  left: 39.3rem;
+  font-size: 11px;
+  bottom: 6rem;
+  text-align: justify;
+  font-weight: 500;
+  font-variant: small-caps;
+}
+
+.big_container {
+  /* border: 2px solid red; */
+  display: flex;
+}
+
+.smallOne {
+  /* border: 2px solid purple; */
+  margin-top: 1rem;
+
+}
+
+.smallTwo {
+  /* border: 2px solid lightgreen; */
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-right: 0rem;
+  margin-top: 0.5rem;
+  width: 62rem;
 }
 
-.App-link {
-  color: #61dafb;
+.small {
+  font-variant: small-caps;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.smallOne img {
+  width: 16rem;
+  margin-top: 1rem;
+}
+
+.smallOne h1 {
+  font-weight: 700;
+  position: relative;
+  bottom: 10.7rem;
+  left: 17rem;
+  text-align: justify;
+}
+
+.smallOne p {
+  color: gray;
+  text-align: left;
+  font-size: 12px;
+  margin-left: 45px;
+  margin-right: 336px;
+  position: relative;
+  bottom: 10rem;
+  left: 14.2rem;
+}
+
+.smallOne h2 {
+  position: relative;
+  bottom: 10rem;
+  font-feature-settings: "smcp";
+  font-variant: small-caps;
+  font-weight: 500;
+  font-size: 15px;
+  left: 31px;
+  margin-bottom: -7rem;
+}
+
+.smallTwo img {
+  width: 7rem;
+    border-radius: 10px;
+    position: relative;
+    top: 2rem;
+    margin-top: 2rem;
+}
+
+.smallTwo h1 {
+  position: relative;
+  bottom: 2.5rem;
+  font-size: 10.6px;
+  left: 7.2rem;
+  font-weight: 650;
+  text-align: left;
+}
+
+.smallTwo h2 {
+  position: relative;
+  font-variant: small-caps;
+  font-weight: 500;
+  font-size: 11px;
+  left: 2.7rem;
+}
+
+.advert {
+  border: 2px solid black;
+  width: 18rem;
+  position: relative;
+  bottom: 56rem;
+  left: 32rem;
+  height: 6rem;
+}
+
+.heading {
+  font-variant: small-caps;
+  text-decoration: underline red;
+}
+.stories_container{
+  margin-top: -52rem;
+}
+.advertisement{
+    font-weight: 500;
+    height: 27.4rem;
+    margin-top: 7rem;
+    border: 9px solid black;
 }
